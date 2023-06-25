@@ -1,0 +1,37 @@
+body {
+    font-family: Inter,  sans-serif; /* Семейство шрифтов */
+    font-size: 20px; /* Размер основного шрифта в <p></p>  */
+    background-color: #5988FF; /* Цвет фона веб-страницы */
+    color: #FFFFFF; /* Цвет основного текста */ 
+}
+h1 {
+    color: #D6FF6B; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+
+@keyframes color-change {
+    0% {
+      color: yellow;
+    }
+
+    25% {
+        color: green;
+      }
+  
+    50% {
+      color: red;
+    }
+  
+    75% {
+        color: brown;
+      }
+
+    100% {
+      color: blue;
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
